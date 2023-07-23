@@ -1,0 +1,326 @@
+[
+  {
+   "Country": "United Arab Emirates",
+   "iso_a2": "AE",
+   "currency_code": "AED",
+   "local_price": 18
+  },
+  {
+   "Country": "Argentina",
+   "iso_a2": "AR",
+   "currency_code": "ARS",
+   "local_price": 590
+  },
+  {
+   "Country": "Australia",
+   "iso_a2": "AU",
+   "currency_code": "AUD",
+   "local_price": 6.7
+  },
+  {
+   "Country": "Azerbaijan",
+   "iso_a2": "AZ",
+   "currency_code": "AZN",
+   "local_price": 4.7
+  },
+  {
+   "Country": "Bahrain",
+   "iso_a2": "BH",
+   "currency_code": "BHD",
+   "local_price": 1.6
+  },
+  {
+   "Country": "Brazil",
+   "iso_a2": "BR",
+   "currency_code": "BRL",
+   "local_price": 22.9
+  },
+  {
+   "Country": "Canada",
+   "iso_a2": "CA",
+   "currency_code": "CAD",
+   "local_price": 6.77
+  },
+  {
+   "Country": "Switzerland",
+   "iso_a2": "CH",
+   "currency_code": "CHF",
+   "local_price": 6.5
+  },
+  {
+   "Country": "Chile",
+   "iso_a2": "CL",
+   "currency_code": "CLP",
+   "local_price": 3400
+  },
+  {
+   "Country": "China",
+   "iso_a2": "CN",
+   "currency_code": "CNY",
+   "local_price": 24
+  },
+  {
+   "Country": "Colombia",
+   "iso_a2": "CO",
+   "currency_code": "COP",
+   "local_price": 14950
+  },
+  {
+   "Country": "Costa Rica",
+   "iso_a2": "CR",
+   "currency_code": "CRC",
+   "local_price": 2650
+  },
+  {
+   "Country": "Czech Republic",
+   "iso_a2": "CZ",
+   "currency_code": "CZK",
+   "local_price": 95
+  },
+  {
+   "Country": "Egypt",
+   "iso_a2": "EG",
+   "currency_code": "EGP",
+   "local_price": 46
+  },
+  {
+   "Country": "Euro area",
+   "iso_a2": "EU",
+   "currency_code": "EUR",
+   "local_price": 4.65
+  },
+  {
+   "Country": "Britain",
+   "iso_a2": "GB",
+   "currency_code": "GBP",
+   "local_price": 3.69
+  },
+  {
+   "Country": "Guatemala",
+   "iso_a2": "GT",
+   "currency_code": "GTQ",
+   "local_price": 26
+  },
+  {
+   "Country": "Hong Kong",
+   "iso_a2": "HK",
+   "currency_code": "HKD",
+   "local_price": 21
+  },
+  {
+   "Country": "Honduras",
+   "iso_a2": "HN",
+   "currency_code": "HNL",
+   "local_price": 89
+  },
+  {
+   "Country": "Croatia",
+   "iso_a2": "HR",
+   "currency_code": "HRK",
+   "local_price": 27
+  },
+  {
+   "Country": "Hungary",
+   "iso_a2": "HU",
+   "currency_code": "HUF",
+   "local_price": 1030
+  },
+  {
+   "Country": "Indonesia",
+   "iso_a2": "ID",
+   "currency_code": "IDR",
+   "local_price": 35000
+  },
+  {
+   "Country": "India",
+   "iso_a2": "IN",
+   "currency_code": "INR",
+   "local_price": 191
+  },
+  {
+   "Country": "Israel",
+   "iso_a2": "IL",
+   "currency_code": "ILS",
+   "local_price": 17
+  },
+  {
+   "Country": "Jordan",
+   "iso_a2": "JO",
+   "currency_code": "JOD",
+   "local_price": 2.3
+  },
+  {
+   "Country": "Japan",
+   "iso_a2": "JP",
+   "currency_code": "JPY",
+   "local_price": 390
+  },
+  {
+   "Country": "South Korea",
+   "iso_a2": "KR",
+   "currency_code": "KRW",
+   "local_price": 4600
+  },
+  {
+   "Country": "Kuwait",
+   "iso_a2": "KW",
+   "currency_code": "KWD",
+   "local_price": 1.3
+  },
+  {
+   "Country": "Lebanon",
+   "iso_a2": "LB",
+   "currency_code": "LBP",
+   "local_price": 130000
+  },
+  {
+   "Country": "Sri Lanka",
+   "iso_a2": "LK",
+   "currency_code": "LKR",
+   "local_price": 1340
+  },
+  {
+   "Country": "Moldova",
+   "iso_a2": "MD",
+   "currency_code": "MDL",
+   "local_price": 60
+  },
+  {
+   "Country": "Mexico",
+   "iso_a2": "MX",
+   "currency_code": "MXN",
+   "local_price": 70
+  },
+  {
+   "Country": "Malaysia",
+   "iso_a2": "MY",
+   "currency_code": "MYR",
+   "local_price": 10.9
+  },
+  {
+   "Country": "Nicaragua",
+   "iso_a2": "NI",
+   "currency_code": "NIO",
+   "local_price": 139
+  },
+  {
+   "Country": "Norway",
+   "iso_a2": "NO",
+   "currency_code": "NOK",
+   "local_price": 62
+  },
+  {
+   "Country": "New Zealand",
+   "iso_a2": "NZ",
+   "currency_code": "NZD",
+   "local_price": 7.1
+  },
+  {
+   "Country": "Oman",
+   "iso_a2": "OM",
+   "currency_code": "OMR",
+   "local_price": 1.42
+  },
+  {
+   "Country": "Pakistan",
+   "iso_a2": "PK",
+   "currency_code": "PKR",
+   "local_price": 700
+  },
+  {
+   "Country": "Peru",
+   "iso_a2": "PE",
+   "currency_code": "PEN",
+   "local_price": 13.9
+  },
+  {
+   "Country": "Philippines",
+   "iso_a2": "PH",
+   "currency_code": "PHP",
+   "local_price": 155
+  },
+  {
+   "Country": "Poland",
+   "iso_a2": "PL",
+   "currency_code": "PLN",
+   "local_price": 16.68
+  },
+  {
+   "Country": "Qatar",
+   "iso_a2": "QA",
+   "currency_code": "QAR",
+   "local_price": 13
+  },
+  {
+   "Country": "Romania",
+   "iso_a2": "RO",
+   "currency_code": "RON",
+   "local_price": 11
+  },
+  {
+   "Country": "Saudi Arabia",
+   "iso_a2": "SA",
+   "currency_code": "SAR",
+   "local_price": 17
+  },
+  {
+   "Country": "Singapore",
+   "iso_a2": "SG",
+   "currency_code": "SGD",
+   "local_price": 5.9
+  },
+  {
+   "Country": "Sweden",
+   "iso_a2": "SE",
+   "currency_code": "SEK",
+   "local_price": 57
+  },
+  {
+   "Country": "Thailand",
+   "iso_a2": "TH",
+   "currency_code": "THB",
+   "local_price": 128
+  },
+  {
+   "Country": "Turkey",
+   "iso_a2": "TR",
+   "currency_code": "TRY",
+   "local_price": 47
+  },
+  {
+   "Country": "Taiwan",
+   "iso_a2": "TW",
+   "currency_code": "TWD",
+   "local_price": 75
+  },
+  {
+   "Country": "Uruguay",
+   "iso_a2": "UY",
+   "currency_code": "UYU",
+   "local_price": 255
+  },
+  {
+   "Country": "United States",
+   "iso_a2": "US",
+   "currency_code": "USD",
+   "local_price": 5.15
+  },
+  {
+   "Country": "Venezuela",
+   "iso_a2": "VE",
+   "currency_code": "VES",
+   "local_price": 10
+  },
+  {
+   "Country": "Vietnam",
+   "iso_a2": "VN",
+   "currency_code": "VND",
+   "local_price": 69000
+  },
+  {
+   "Country": "South Africa",
+   "iso_a2": "ZA",
+   "currency_code": "ZAR",
+   "local_price": 39.9
+  }
+ ]
