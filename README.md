@@ -24,35 +24,22 @@ React, Styled-component를 활용하여 구현하였습니다.
 
 ```bash
 📦How-much-do-we-change
- ┣ 📂.firebase
- ┣ 📂public
- ┃ ┣ 📜index.html
- ┃ ┗ 📜robots.txt
- ┣ 📂src
- ┃ ┣ 📂Components
- ┃ ┃ ┣ 📂MainPage
- ┃ ┃ ┃ ┣ 📂Modal
- ┃ ┃ ┃ ┣ 📂atoms
- ┃ ┃ ┃ ┗ 📂molecular
- ┃ ┃ ┣ 📂Pages
- ┃ ┃ ┃ ┣ 📂MainPage.jsx
- ┃ ┃ ┣ 📂ResultPage
- ┃ ┃ ┃ ┣ 📂atoms
- ┃ ┃ ┃ ┣ 📂template
- ┃ ┃ ┃ ┗ 📜Calculator.jsx
- ┃ ┃ ┗ 📜styled.js
- ┃ ┣ 📂Data
- ┃ ┣ 📂States
- ┃ ┣ 📂Utils
- ┃ ┣ 📜App.css
- ┃ ┣ 📜App.js
- ┣ 📜.DS_Store
- ┣ 📜.firebaserc
- ┣ 📜.gitignore
- ┣ 📜README.md
- ┣ 📜firebase.json
- ┣ 📜package-lock.json
- ┗ 📜package.json
+ ┣ 📂.firebase                   # Firebase 호스팅 설정
+ ┣ 📂.git                        # Git 버전 관리 설정
+ ┣ 📂public                      # index.html 등의 공개 파일
+ ┣ 📂src                         # 소스 파일
+ ┃ ┣ 📂Components                # React 컴포넌트
+ ┃ ┃ ┣ 📂MainPage                # 메인 페이지 특화 컴포넌트
+ ┃ ┃ ┣ 📂Pages                   # 페이지 컴포넌트
+ ┃ ┃ ┣ 📂ResultPage              # 결과 표시용 컴포넌트
+ ┃ ┃ ┗ 📜styled.js               # styled-components 파일
+ ┃ ┣ 📂Data                      # 데이터 파일, 빅맥 지수 (JSON) 포함
+ ┃ ┣ 📂States                    # React 상태 관리
+ ┃ ┗ 📂Utils                     # API 호출을 포함한 유틸리티 함수
+ ┣ 📜README.md                   # 프로젝트 문서화
+ ┣ 📜firebase.json               # Firebase 설정 파일
+ ┗ 📜package.json                # NPM 패키지 및 프로젝트 메타데이터
+
 ```
 
 ## Technologies
@@ -79,104 +66,30 @@ React, Styled-component를 활용하여 구현하였습니다.
 ## How To Use
 
  프로젝트를 개발하기 위해 다음 단계를 따라주세요.
- 
- ### 0. 개발 환경 설정
-  1) Visual Studio Code 설치
-   
+ 로컬에서 복사본을 실행하기 위한 간단한 단계입니다.
 
  ### 1. 이 프로젝트를 클론합니다.
-  ```bash
-  git clone 
-  ```
-  ### 2. 프로젝트 디렉토리로 이동합니다.
-  ```bash
-  cd 
-  ```
-  ### 3. VSCode를 실행합니다.
-  ```bash
+```bash
+git clone https://github.com/leeraquel/How-much-do-we-change.git
+```
+  ### 2. npm 패키지를 설치합니다.
+```
+npm install
+```
+  ### 3. 개발 서버를 시작합니다. 
+```
+npm start
+```
 
-  ```
-  ### 4. 프로젝트를 로컬 서버에서 실행합니다. (예: Live Server VSCode extension 사용)
-  
- 
   - 동작 구현을 보시려면 배포 링크를 참고해주세요. 
   ### 배포
-   - 이 프로젝트는 [Nelfty](https://nelfty.com/)를 사용하여 배포되었습니다.
-     - **URL**: [green-way-seoul(https://green-way-seoul.netlify.app/)
-     - **포트 번호**: 5500
+   - 이 프로젝트는 [Nelfty](https://firebase.com/)를 사용하여 배포되었습니다.
+     - **URL**: 
+     - **포트 번호**: 3000
        
   ### 테스트
    - 프로젝트에는 자동화된 테스트가 포함되어 있지 않습니다. 그러나 각 파일에 대한 수동 테스트를 진행할 수 있습니다.
 
 
 ## ----------------------------------------------------
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
